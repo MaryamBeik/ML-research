@@ -1,7 +1,10 @@
 # linear regression 
-Linear regression is a supervised learning algorithm used for solving regression problems. It models the relationship between a dependent variable (also called the target or response variable) and one or more independent variables (also known as predictors or features) as a linear equation. The goal of linear regression is to find the best-fit line that minimizes the difference between the predicted values and the actual values.
+Linear regression is a supervised learning algorithm used for solving regression problems. It models the relationship between a dependent variable 
+(also called the target or response variable) and one or more independent variables (also known as predictors or features) as a linear equation. 
+The goal of linear regression is to find the best-fit line that minimizes the difference between the predicted values and the actual values.
 
-The linear regression algorithm assumes a linear relationship between the independent variables and the dependent variable. It assumes that the relationship can be represented by a straight line in a scatter plot. The equation of a simple linear regression with one independent variable can be represented as:
+The linear regression algorithm assumes a linear relationship between the independent variables and the dependent variable. 
+It assumes that the relationship can be represented by a straight line in a scatter plot. The equation of a simple linear regression with one independent variable can be represented as:
 
 y = β₀ + β₁x + ε
 
@@ -13,7 +16,8 @@ Where:
     β₁ is the slope of the line (the change in y for a unit change in x).
     ε represents the error term (the difference between the predicted and actual values).
 
-The linear regression algorithm aims to estimate the values of β₀ and β₁ that minimize the sum of squared errors between the predicted values and the actual values. This is typically achieved using optimization techniques like least squares or gradient descent.
+The linear regression algorithm aims to estimate the values of β₀ and β₁ that minimize the sum of squared errors between the predicted values and
+the actual values. This is typically achieved using optimization techniques like least squares or gradient descent.
 
 To make predictions using linear regression, you simply plug in the values of the independent variables into the equation to obtain the predicted value of the dependent variable.
 
@@ -21,7 +25,9 @@ Linear regression can be extended to multiple independent variables, known as mu
 
 y = β₀ + β₁x₁ + β₂x₂ + ... + βₙxₙ + ε
 
-In multiple linear regression, each independent variable is multiplied by its corresponding coefficient (β) and summed together with the intercept term (β₀) to obtain the predicted value of the dependent variable.
+In multiple linear regression, each independent variable is multiplied by its corresponding coefficient (β) and summed together with the intercept term (β₀)
+to obtain the predicted value of the dependent variable.
 
-Linear regression has various applications, including predicting housing prices, stock market analysis, demand forecasting, and many more. It is a fundamental algorithm in statistics and machine learning due to its simplicity and interpretability.
+Linear regression has various applications, including predicting housing prices, stock market analysis, demand forecasting, and many more.
+It is a fundamental algorithm in statistics and machine learning due to its simplicity and interpretability.
 
