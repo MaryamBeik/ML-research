@@ -22,3 +22,25 @@ Starting to learn machine learning research requires a strong foundation in the 
 9 - Publish your research: Once you've gained sufficient knowledge and conducted original research, aim to publish your work. Submit your research papers to conferences or journals in the machine learning field. Peer-reviewed publications help establish your credibility as a researcher and contribute to the advancement of the field.
 
 Remember, machine learning research is a continuous learning process, and staying updated with the latest research and techniques is essential. Keep exploring new topics, experimenting with novel ideas, and continuously refining your skills to grow as a machine learning researcher.
+
+
+
+Here are some basic machine learning algorithms that are commonly used:
+
+1 - Linear Regression: Linear regression is a simple and widely used algorithm for regression problems. It models the relationship between a dependent variable and one or more independent variables as a linear equation. It aims to find the best-fit line that minimizes the difference between the predicted and actual values.
+
+2 - Logistic Regression: Logistic regression is used for binary classification problems. It predicts the probability of an event occurring by fitting a logistic function to the input features. It is commonly used for tasks such as spam detection or medical diagnosis.
+
+3 - Decision Trees: Decision trees are versatile algorithms used for both classification and regression problems. They partition the input space into distinct regions based on features, creating a tree-like structure of decisions. Each internal node represents a test on a feature, while each leaf node represents a class or value.
+
+4 - Random Forests: Random forests are an ensemble learning method that combines multiple decision trees. They generate a set of diverse decision trees using random subsets of the training data and features. The final prediction is made by aggregating the predictions of individual trees, providing better accuracy and robustness.
+
+5 - Support Vector Machines (SVM): SVM is a powerful algorithm used for both classification and regression tasks. It maps the data to a high-dimensional feature space and finds the optimal hyperplane that separates the data into different classes or predicts a continuous value. SVMs can handle complex decision boundaries and work well with small to medium-sized datasets.
+
+6 - Naive Bayes: Naive Bayes is a probabilistic classifier based on Bayes' theorem. It assumes that the features are conditionally independent, given the class label. Despite this "naive" assumption, it often performs well and is computationally efficient. It is commonly used for text classification and spam filtering.
+
+7 - K-Nearest Neighbors (KNN): KNN is a non-parametric algorithm used for classification and regression tasks. Given a new data point, it identifies the K nearest neighbors based on a distance metric and assigns the label or value based on the majority vote or average of the neighbors' values. KNN is simple to understand and implement.
+
+8 - Neural Networks: Neural networks are a set of algorithms inspired by the structure and functioning of the human brain. They consist of interconnected layers of artificial neurons, called nodes or units. Neural networks can be used for both classification and regression problems, and they excel in capturing complex patterns in large datasets.
+
+These are just a few examples of basic machine learning algorithms. There are many more algorithms and variations available, each with its own strengths and applications. It's important to understand these algorithms' principles and assumptions to choose the appropriate one for a given problem.
