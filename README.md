@@ -1,4 +1,4 @@
-# ML-research
+# ML-Research : How to start MACHINE LEARNING researches:
 Starting to learn machine learning research requires a strong foundation in the fundamentals of machine learning and a deep understanding of mathematical and statistical concepts. Here's a step-by-step guide to help you get started:
 
 1 - Build a solid foundation in machine learning: Start by learning the basics of machine learning algorithms, such as linear regression, logistic regression, decision trees, and neural networks. Understand their concepts, assumptions, strengths, and limitations. You can find online courses, tutorials, and textbooks to help you grasp these concepts.
