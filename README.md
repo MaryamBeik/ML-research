@@ -27,7 +27,7 @@ Remember, machine learning research is a continuous learning process, and stayin
 
 Here are some basic machine learning algorithms that are commonly used:
 
-1 - Linear Regression: Linear regression is a simple and widely used algorithm for regression problems. It models the relationship between a dependent variable and one or more independent variables as a linear equation. It aims to find the best-fit line that minimizes the difference between the predicted and actual values.
+1 -<b> Linear Regression</b>: Linear regression is a simple and widely used algorithm for regression problems. It models the relationship between a dependent variable and one or more independent variables as a linear equation. It aims to find the best-fit line that minimizes the difference between the predicted and actual values.
 
 2 - Logistic Regression: Logistic regression is used for binary classification problems. It predicts the probability of an event occurring by fitting a logistic function to the input features. It is commonly used for tasks such as spam detection or medical diagnosis.
 
