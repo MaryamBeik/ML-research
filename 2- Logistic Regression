@@ -1,0 +1,29 @@
+Logistic regression is a statistical model used for binary classification problems, where the goal is to predict the probability of an event belonging to one of two classes. Despite its name, logistic regression is a classification algorithm, not a regression algorithm.
+
+In logistic regression, the dependent variable is a binary variable that represents the presence or absence of a certain event or class. The independent variables are predictor variables that can be continuous or categorical.
+
+The logistic regression model applies a logistic function (also known as the sigmoid function) to a linear combination of the independent variables. The logistic function maps the linear combination to a value between 0 and 1, representing the probability of the event belonging to the positive class.
+
+The logistic regression equation can be represented as:
+
+p = 1 / (1 + e^(-z))
+
+Where:
+
+    p is the probability of the event belonging to the positive class.
+    z is the linear combination of the independent variables and their respective coefficients.
+
+The linear combination (z) is calculated as:
+
+z = β₀ + β₁x₁ + β₂x₂ + ... + βₙxₙ
+
+Where:
+
+    x₁, x₂, ..., xₙ are the independent variables.
+    β₀, β₁, β₂, ..., βₙ are the coefficients of the logistic regression model.
+
+During the training process, logistic regression estimates the coefficients (β₀, β₁, β₂, ..., βₙ) that best fit the training data, maximizing the likelihood of the observed data.
+
+To make predictions using a trained logistic regression model, the probability output by the model is typically compared to a threshold (e.g., 0.5). If the predicted probability is above the threshold, the sample is classified as the positive class; otherwise, it is classified as the negative class.
+
+Logistic regression is widely used in various domains, including healthcare, finance, marketing, and social sciences. It is known for its interpretability, probabilistic output, and simplicity. However, it assumes a linear relationship between the independent variables and the log-odds of the event, which may not always hold in complex datasets.
